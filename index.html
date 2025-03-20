@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="bg-white px-6 py-2 flex justify-center items-center space-x-12 relative">
+        <!-- Logo -->
+        <div>
+            <a href="index.html">
+                <img src="logo.png" alt="Logo" class="h-14">
+            </a>
+        </div>
+        <!-- Menu -->
+        <ul class="flex space-x-8 text-black">
+            <li class="group relative">
+                <a href="dich-vu.html" class="hover:bg-gray-200 p-2 rounded">Dịch Vụ</a>
+                <!-- Vùng đệm vô hình -->
+                <div class="absolute top-[calc(100%+2px)] left-0 right-0 h-4 bg-transparent z-10"></div>
+                <!-- Dropdown Menu -->
+                <div class="absolute left-[-9999px] right-[-9999px] top-[calc(100%+10px)] hidden group-hover:block bg-blue-900 text-white p-6 z-10">
+                    <div class="max-w-[1440px] mx-auto grid grid-cols-4 gap-6">
+                        <!-- Cột 1: Dịch vụ xếp dỡ hàng hóa -->
+                        <div>
+                            <h3 class="text-sm font-bold uppercase mb-4">Dịch vụ xếp dỡ hàng hóa</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-gray-300">Xếp dỡ container bằng cần cẩu bờ và thiết bị chuyên dụng</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Xếp dỡ hàng rời (than, quặng, dầu thô, ngũ cốc, xi măng, v.v)</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Xử lý hàng siêu trường, siêu trọng</a></li>
+                            </ul>
+                        </div>
+                        <!-- Cột 2: Dịch vụ lưu kho và bãi -->
+                        <div>
+                            <h3 class="text-sm font-bold uppercase mb-4">Dịch vụ lưu kho và bãi</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-gray-300">Lưu trữ container, hàng hóa trong kho bãi</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Kho ngoại quan, kho lạnh, kho bảo thuế</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Khu vực bãi tập kết hàng xuất khẩu và nhập khẩu</a></li>
+                            </ul>
+                        </div>
+                        <!-- Cột 3: Recreational Sailing -->
+                        <div>
+                            <h3 class="text-sm font-bold uppercase mb-4">Dịch vụ logistics và vận tải</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-gray-300">Giao nhận hàng hóa đa phương thức (đường biển, đường bộ, đường sắt)</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Trung chuyển hàng hóa quốc tế</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ khai báo hải quan và thủ tục xuất nhập khẩu</a></li>
+                            </ul>
+                        </div>
+                        <!-- Cột 4: Legislation and Regulations -->
+                        <div>
+                            <h3 class="text-sm font-bold uppercase mb-4">Dịch vụ hàng hải</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-gray-300">Cung cấp nhiên liệu và tiếp nước ngọt cho tàu</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ lai dắt, neo đậu, hỗ trợ tàu cập cảng.</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ hoa tiêu hàng hải</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="max-w-[1440px] mx-auto grid grid-cols-2 gap-6 mt-6">
+                        <!-- Cột 6: Contact the Harbourmaster -->
+                        <div>
+                            <h3 class="text-sm font-bold uppercase mb-4">Dịch vụ bảo trì, sửa chữa tàu biển</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-gray-300">Bảo dưỡng, sửa chữa tàu biển ngay tại cảng</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ cung cấp phụ tùng, trang thiết bị hàng hải</a></li>
+                            </ul>
+                        </div>
+                        <!-- Cột 7: Port Health Authority -->
+                        <div>
+                            <h3 class="text-sm font-bold uppercase mb-4">Dịch vụ hỗ trợ khác</h3>
+                            <ul class="space-y-2">
+                                <li><a href="#" class="hover:text-gray-300">Cung cấp nhân lực bốc xếp</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ ăn uống, nghỉ ngơi cho thuyền viên</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ bảo vệ hàng hóa, giám sát container</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ vận tải trao đổi thuyền viên</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ tàu câu</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ đưa đón thuyền viên</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ vệ sinh hàng năm </a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ thu gom xử lý rác biển</a></li>
+                                <li><a href="#" class="hover:text-gray-300">Dịch vụ cho thuê tàu vận tải</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="about.html" class="hover:bg-gray-200 p-2 rounded">Về Chúng Tôi</a></li>
+        </ul>
+    </nav>
+    <!-- Hero Banner -->
+    <section class="relative bg-cover bg-center h-[600px] flex items-center" style="background-image: url('port.jpg')">
+        <!-- Overlay -->
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        
+        <!-- Tiêu đề -->
+        <div class="mx-50 relative container">
+            <div class="text-white">
+                <h1 class="text-5xl md:text-6xl font-bold uppercase leading-tight w-fit border-t-4">cảng nước sâu miền trung</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Hàng Link -->
+    <section class="relative -mt-30 mb-30">
+        <div class="w-9/12 mx-auto bg-blue-900 bg-opacity-90">
+            <div class="p-8">
+                <h2 class="text-2xl font-bold text-white pl-15">Được quan tâm nhiều nhất</h2>
+                <div class="p-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <a href="#" class="text-white text-left font-bold py-2 px-10 underline hover:text-gray-400">Most visited</a>
+                <a href="#" class="text-white text-left font-bold py-2 px-10 underline hover:text-gray-400">Why Rotterdam?</a>
+                <a href="#" class="text-white text-left font-bold py-2 px-10 underline hover:text-gray-400">Innovation</a>
+                <a href="#" class="text-white text-left font-bold py-2 px-10 underline hover:text-gray-400">Port dues tariffs</a>
+                <a href="#" class="text-white text-left font-bold py-2 px-10 underline hover:text-gray-400">Digitisation</a>
+                <a href="#" class="text-white text-left font-bold py-2 px-10 underline hover:text-gray-400">Energy transition</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <p class="mx-auto max-w-[630px] mb-8 text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et metus augue. Proin eget tristique nisl, ac vulputate lorem. Integer tincidunt elit quis turpis varius semper. Ut interdum maximus dictum. Nam tempor nibh non velit faucibus volutpat. Nulla pharetra dignissim ex, nec suscipit elit pulvinar ac. Sed volutpat euismod mi at finibus. Aliquam vulputate euismod consequat. Phasellus at nisi elementum, placerat nulla eu, elementum metus.
+    </p>
+    <p class="mx-auto max-w-[630px] mb-8 text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et metus augue. Proin eget tristique nisl, ac vulputate lorem. Integer tincidunt elit quis turpis varius semper. Ut interdum maximus dictum. Nam tempor nibh non velit faucibus volutpat. Nulla pharetra dignissim ex, nec suscipit elit pulvinar ac. Sed volutpat euismod mi at finibus. Aliquam vulputate euismod consequat. Phasellus at nisi elementum, placerat nulla eu, elementum metus.
+    </p>
+
+    <section class="mx-auto mb-[90px] max-w-[1400px] bg-blue-100">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Cột Trái: Nội dung -->
+            <div class="flex flex-col justify-center">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4 pr-[3.5rem] pl-[5rem]">Lorem ipsum</h2>
+                <p class="text-gray-600 mb-6 pr-[3.5rem] pl-[5rem]">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et metus augue. Proin eget tristique nisl, ac vulputate lorem. Integer tincidunt elit quis turpis varius semper. Ut interdum maximus dictum. Nam tempor nibh non velit faucibus volutpat. Nulla pharetra dignissim ex, nec suscipit elit pulvinar ac.
+                </p>
+                <div class="inline-block pr-[3.5rem] pl-[5rem]">
+                    <a href="#" class="bg-blue-500 text-white font-semibold py-2 px-6 rounded hover:bg-blue-600 transition">Tìm Hiểu Thêm</a>
+                </div>
+            </div>
+            <!-- Cột Phải: Video -->
+            <div class="flex items-center py-[1.875rem] pr-[3.5rem]">
+                <video class="w-full rounded-lg shadow-lg" controls>
+                    <source src="video.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ video.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Quote -->
+    <section class="mx-auto mb-[90px] max-w-[630px]">
+        <!-- Div Quote -->
+        <div class="py-[2.1875rem] border-t-[0.25rem] border-b-[0.25rem] border-yellow-500 text-gray-800 text-lg text-left font-bold">
+            "Cảng Nước Sâu Miền Trung là biểu tượng của sự phát triển bền vững và hiện đại hóa ngành logistics Việt Nam."
+        </div>
+        <!-- Div Người Quote -->
+        <div class="mt-5 uppercase text-left text-gray-600">
+            <span class="font-bold">Nguyễn Văn A</span> - <span>Giám đốc Cảng</span>
+        </div>
+    </section>
+
+    <!-- Section Khám Phá Cảng -->
+    <section class="mx-auto mb-[90px] max-w-[1440px]">
+        <div class="flex flex-col md:flex-row">
+            <!-- Div Chữ (Trái) -->
+            <div class="ml-8 pr-8">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Khám Phá Cảng</h3>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+            </div>
+            <!-- Div Điều Hướng (Phải) -->
+            <div class="mx-8 flex flex-col sm:flex-row gap-6">
+                <!-- Ảnh 1 -->
+                <div class="relative">
+                    <img src="https://placehold.co/600x400" alt="Port 1" class="w-full h-48 object-cover rounded-lg">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" class="text-white text-lg font-semibold hover:underline">Cảng Container</a>
+                    </div>
+                </div>
+                <!-- Ảnh 2 -->
+                <div class="relative">
+                    <img src="https://placehold.co/600x400" alt="Port 2" class="w-full h-48 object-cover rounded-lg">
+                    <div class="absolute inset-0 flex items-center justify-center">
+                        <a href="#" class="text-white text-lg font-semibold hover:underline">Cảng Dầu Khí</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Latest News -->
+    <section class="mx-auto mb-[90px] max-w-[1440px] w-full">
+        <h2 class="text-3xl font-bold uppercase text-gray-800 mb-8">Latest News</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- News Item 1 -->
+            <div class="flex flex-col">
+                <img src="https://placehold.co/600x400" alt="News 1" class="w-full h-48 object-cover rounded-lg mb-4">
+                <span class="text-gray-500 text-sm mb-2">19/3/2025</span>
+                <h3 class="text-lg font-bold text-gray-800 mb-2">Lorem ipsum</h3>
+                <span class="text-blue-500 text-sm uppercase">Lorem</span>
+            </div>
+            <!-- News Item 2 -->
+            <div class="flex flex-col">
+                <img src="https://placehold.co/600x400" alt="News 2" class="w-full h-48 object-cover rounded-lg mb-4">
+                <span class="text-gray-500 text-sm mb-2">18/3/2025</span>
+                <h3 class="text-lg font-bold text-gray-800 mb-2">Nam posuere elementum lacus at feugiat. Mauris et fermentum leo.</h3>
+                <span class="text-blue-500 text-sm uppercase">Lorem</span>
+            </div>
+            <!-- News Item 3 -->
+            <div class="flex flex-col">
+                <img src="https://placehold.co/600x400" alt="News 3" class="w-full h-48 object-cover rounded-lg mb-4">
+                <span class="text-gray-500 text-sm mb-2">19/3/2025</span>
+                <h3 class="text-lg font-bold text-gray-800 mb-2">Ut ornare mattis finibus.</h3>
+                <span class="text-blue-500 text-sm uppercase">Lorem Lorem</span>
+            </div>
+            <!-- News Item 4 -->
+            <div class="flex flex-col">
+                <img src="https://placehold.co/600x400" alt="News 4" class="w-full h-48 object-cover rounded-lg mb-4">
+                <span class="text-gray-500 text-sm mb-2">19/3/2025</span>
+                <h3 class="text-lg font-bold text-gray-800 mb-2">Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</h3>
+                <span class="text-blue-500 text-sm uppercase">Lorem</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-900 text-white py-8">
+        <div class="max-w-[1440px] mx-auto px-6 text-center">
+            <h3 class="text-xl font-bold uppercase mb-4">Công Ty Cổ Phần Cảng Nước Sâu Miền Trung</h3>
+            <p class="mb-2">Nghi Son Zone, Nghi Son District, Thanh Hoa Province, Vietnam</p>
+            <p class="mb-2">Tel: 024.99998889</p>
+            <p class="mb-2">E-mail: <a href="mailto:cangnuocsau@gmail.com" class="underline hover:text-gray-300">cangnuocsau@gmail.com</a></p>
+            <p class="mb-2">Website: <a href="http://cangnuocsau.com" class="underline hover:text-gray-300">http://cangnuocsau.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>
